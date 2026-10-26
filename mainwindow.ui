@@ -6,18 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>455</width>
-    <height>229</height>
+    <width>579</width>
+    <height>270</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <property name="spacing">
-     <number>0</number>
-    </property>
+   <layout class="QGridLayout" name="gridLayout">
     <property name="leftMargin">
      <number>1</number>
     </property>
@@ -30,7 +27,7 @@
     <property name="bottomMargin">
      <number>1</number>
     </property>
-    <item>
+    <item row="0" column="0">
      <widget class="QPlainTextEdit" name="TextEdit"/>
     </item>
    </layout>
@@ -40,7 +37,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>455</width>
+     <width>579</width>
      <height>21</height>
     </rect>
    </property>
@@ -121,6 +118,16 @@
    <addaction name="actionCopy"/>
    <addaction name="actionPaste"/>
    <addaction name="separator"/>
+   <addaction name="actiontoolbar"/>
+   <addaction name="actionStatus Bar"/>
+   <addaction name="separator"/>
+   <addaction name="actionSelect All"/>
+   <addaction name="actionWord Wrap"/>
+   <addaction name="actionfont"/>
+   <addaction name="actionShow Line Numbers"/>
+   <addaction name="separator"/>
+   <addaction name="actionFind"/>
+   <addaction name="actionReplace"/>
   </widget>
   <action name="actionNew">
    <property name="icon">

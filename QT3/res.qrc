@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/about-32.png</file>
+        <file>img/close-32.png</file>
+        <file>img/copy-32.png</file>
+        <file>img/cut-32.png</file>
+        <file>img/delete-32.png</file>
+        <file>img/find-32.png</file>
+        <file>img/font-32.png</file>
+        <file>img/new-32.png</file>
+        <file>img/open-32.png</file>
+        <file>img/paste-32.png</file>
+        <file>img/print-32.png</file>
+        <file>img/redo-32.png</file>
+        <file>img/replace-32.png</file>
+        <file>img/save-32.png</file>
+        <file>img/save-as-32.png</file>
+        <file>img/settings-32.png</file>
+        <file>img/theme-32.png</file>
+        <file>img/undo-32.png</file>
+        <file>img/wrap-32.png</file>
+        <file>img/zoom-in-32.png</file>
+        <file>img/zoom-out-32.png</file>
+        <file>img/select-all-32.png</file>
+        <file>img/toolbar-32.png</file>
+        <file>img/line-numbers-32.png</file>
+        <file>img/status-bar-32.png</file>
+    </qresource>
+</RCC>
